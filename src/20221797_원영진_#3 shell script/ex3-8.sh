@@ -2,4 +2,4 @@
 touch DB.txt
 read name phone
 echo "$name $phone" | tee -a ./DB.txt > '/dev/null'
-exit 0 cd -
+exit 0
